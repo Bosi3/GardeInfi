@@ -1,0 +1,100 @@
+.activiteprimox{
+		height: auto;
+		margin-bottom: 5px;
+		margin-top: 5px;
+	}
+.add#go{
+		right: 20%;
+	}
+.activeartx{
+		height: auto;
+		margin-bottom: 5px;
+		margin-top: 5px;
+}
+/*.form-group option{
+	margin-bottom: 15px;
+}*/
+/*.pad{
+	padding-top: 0;
+     padding-bottom: 20px; 
+}*/
+.sopraed{
+    margin-top: -90px;
+    text-indent: 14px;
+    font-size: 14px;
+    line-height: 0.9;
+}
+.sopraed p{
+   
+    text-indent: 14px;
+    font-size: 16px;
+}
+.sopraed h4{
+/*    margin-top: -70px;
+    background-color: #ffffff;
+    opacity: 0.6;*/
+    line-height: 0.9;
+    text-indent: 14px;
+    font-size: 16px;
+}
+.sopra {
+    margin-top: -90px;
+    text-indent: 14px;
+    line-height: 0.9;
+}
+.expo{
+	height: auto;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.expo::after {
+	margin-bottom: 50px;
+
+}
+.margi {
+    margin-bottom: 50px;
+}
+.rond {
+    width: 40px;
+    height: 40px;
+  /*  background: #03d5f6;
+    -moz-border-radius: 70px;
+    -webkit-border-radius: 70px;
+    border-radius: 70px;*/
+    padding-top: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+#eve{
+	margin-bottom: 30px;
+}
+.space p{
+    margin-top: 20px;
+}
+.photox{
+    padding-bottom: 47px;
+}
+.quatorze p{
+    margin-top: 13px;
+}
+.photobox {
+    margin-bottom: 88px;
+    width: 20px;
+    height: 20px;
+}
+.photobo {
+    margin-bottom: 88px;
+    width: 20px;
+    height: 20px;
+}
+.foto{
+    margin-bottom: 68px;
+}
+.fotox {
+/*    margin-bottom: 10px;*/
+    margin-top: 80px;
+}
+.fotoxx {
+/*    margin-bottom: 10px;*/
+    margin-top: -20px;
+}

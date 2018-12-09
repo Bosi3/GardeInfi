@@ -1,0 +1,877 @@
+@charset:"UTF-8";
+
+
+/*@font-face{
+	font-family:"Trajan Pro";
+	src: url(../fonts/TrajanPro-Regular.ttf);
+}*/
+/*ul.navbar-nav li a{ color: #FFF !important; font-family: trajan_reg; }*/
+
+body{
+	width: 100%;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+}
+.full-width{
+	width: 100%;
+}
+h1 {
+	font-size: 36px;
+}
+h2 {
+	font-size: 30px;
+}
+h3 {
+	font-size: 24px;
+}
+/*--------------color--------------*/
+.red {
+	color: #c3151c;
+}
+.blue {
+	color: #16325c;
+}
+.azure {
+	color: #93c5e3;
+}
+.white {
+	color: #ffffff;
+}
+.backred {
+	background-color:  #c3151c;
+}
+.backblue {
+	background-color: #16325c;
+	color: #ffffff;
+}
+.backazure {
+	background-color: #93c5e3;
+}
+.backred {
+	background-color: #c3151c;
+	color: #ffffff;
+}
+#azurex {
+	color: #26569f;
+	margin-top: -23px;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+	background-color: #93c5e3;
+	color: #16325c;
+}
+/*--------------fin---color--------------*/
+#logo {
+	position:absolute;
+	z-index: 100;
+	margin-top: 20px;
+}
+#title {
+	position:relative;
+}
+#back-to-top{
+	float: right;
+	background-color: #c3151c;
+    border-color: #c3151c;
+    position: relative;
+    bottom: 50px;
+	right:0px;
+}
+#slogan{
+	float: right;
+	margin-right: 15px;
+}
+/*--------------Menu--------------*/
+.menu {
+
+	background-color: #16325c;
+	color: #ffffff;
+}
+.navbar{
+    background-color: #16325c;
+}
+.navbar .navbar-default{
+    border-style:none;
+    background-color: #16325c;
+}
+
+.menu nav:nth-child(1) {
+    background-color: #16325c;
+    border-style:none;
+}
+.navbar-default .navbar-nav > li > a {
+	background-color: #16325c;
+	color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover { 
+    color: #16325c; 
+    background-color:  #93c5e3;
+}
+
+.navbar .navbar-header{
+	background-color: transparent;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	background-color: #16325c;
+	color: #ffffff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+
+    background-color: #93c5e3;
+    border-color:  #93c5e3;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #16325c;
+    border-color:  #93c5e3 ;
+}
+.navbar-default .navbar-toggle {
+    border-color: #93c5e3;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: #16325c;
+	color: #ffffff;
+}
+.dropdown-menu{
+	background-color: #93c5e3;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #16325c; 
+	background-color: #93c5e3;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #16325c; 
+	background-color: #93c5e3;
+}
+.navbar-default .navbar-nav > li > a {
+    background-color: #16325c;
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: #16325c;
+    text-decoration: none;
+    background-color: #93c5e3;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    background-color: #16325c;
+    color: #ffffff;
+}
+.navbar-default {
+     border-color: transparent; 
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: #93c5e3;
+    background-color: #16325c;
+}
+.dropdown-menu > li > a {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+	color: #93c5e3;
+    background-color: #16325c;
+}
+#photo {
+	margin-top: -20px;
+	display: block;	
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+#sweethome {
+margin-top: 20px;
+}
+	}
+@media (min-width: 980px) and (max-width: 991px){
+
+#sweethome {
+margin-top: 20px;
+}
+}
+@media (min-width: 768px) and (max-width: 979px){
+#title {
+	display: block;
+}
+.avantages{
+	margin-top: 25px;
+}
+#logo {
+    max-width: 150%;
+    margin-top: auto;
+}
+#sweethome {
+margin-top: 20px;
+}
+}
+@media (max-width: 969px){
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+    background-color: #93c5e3;
+    color: #16325c;
+}
+}
+@media (min-width: 482px) and (max-width: 767px){
+/*.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+}*/
+#title {
+	display: block;
+}
+.avantages{
+	margin-top: 25px;
+}
+#logo {
+max-width: 200%;
+margin-top: auto;
+}
+#sweethome {
+margin-top: 20px;
+}
+#remplace p:first-child{
+	margin-top: 20px;
+}
+.photoser {
+	display: block;
+	margin-top: -30px;
+}
+}
+@media screen and (max-width:480px) {
+#logo {
+max-width: 200%;
+margin-top: auto;
+}
+#title h1 {
+	display: block;
+}
+.slider{
+	position: relative;
+	margin-top: 100%;
+}
+.photoser h2{
+	display: block;
+
+}
+.photoser {
+	display: block;
+	margin-top: -20px;
+}
+.avantages{
+	margin-top: 25px;
+}
+#sweethome {
+	margin-top: 20px;
+}
+#remplace p{
+	margin-top: 20px;
+}
+}
+
+/*--------------services--------------*/
+
+.photoser h2{
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+.lire {
+	float: right;
+}
+.services .gauche h2:first-child {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.services .gauche h2:first-child:after{
+	margin-bottom: 25px;
+}
+.droite{
+	margin-top: 113px;
+	margin-bottom: 100px;
+}
+.services .droite h2{
+	margin-bottom: 25px;
+}
+#coeur{
+	display: block;
+	margin-left: 10px;
+padding-bottom: 20px;
+}
+.coeur p:first-child{
+	margin-top: -5px;
+}
+#coeurs{
+	margin-top: 15px;
+}
+#soinsinfi{
+		display: block;
+	position: absolute;
+
+}
+.imgcontact{
+	display: block;
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 585px;
+}
+#carte{
+        width:100%;
+        height:524px;
+
+       }
+.suppl {
+    display: none;
+}
+.bandeau {
+    width: 100%;
+    background-color: #fff;
+    padding-bottom: 35px;
+}
+#remplace h2{
+margin-bottom: 30px;
+}
+#remplace p{
+margin-top: 20px;
+}
+/*#sweet p:first-child{
+margin-bottom: 20px;
+margin-top: 10px;
+}*/
+.sweethome{
+	margin-top: 30px;
+}
+#sweetapres{
+	border-color: #c3151c;
+	border-style: solid;
+	border-width: 3px;
+	margin-left: 15px;
+	margin-right: -15px;
+}
+/*#sweethome p{
+	margin-top: -10px;
+}
+#sweetimg{
+	margin-top: 30px;
+}
+#sweetop{
+    margin-top: 160px;
+}*/
+#sweetart{
+    margin-top: 30px;
+    margin-left: -15px;
+}
+/*--------------fin---services--------------*/
+/*--------------background fleurs + smarticons--------------*/
+
+.flower{
+	position: absolute;
+	bottom:0px;
+	width: 100%;
+}
+.backflower{
+	width: 100%;
+}
+#flowerlinks{
+	position: relative;
+}
+#int{
+	width:80%;
+	margin:0 auto;
+	position: relative;
+}
+.link-rond{/* JEN 28/1 */
+	width: 80%;
+    margin: 0 auto;
+    position: relative;
+    
+    height: 170px;
+    margin: 15px 44px;
+}
+
+.icon-rond{
+		width: 125px;
+		height: 125px;
+	}
+/*JEN 28/1 : Mis en commentaire pour remonter les ronds, ce code empêche de les aligner*/
+/*.link-rond#rond1{
+	top: 46.2%;
+    left: 20.4%;
+	 transform: translate(-50%, -50%);
+}
+.link-rond#rond2{
+    top: 38%;
+    left: 37.9%;
+	 transform: translate(-50%, -50%);
+}
+.link-rond#rond3{
+    top: 47%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+}
+.link-rond#rond4{
+    top: 32%;
+    left: 72%;
+	 transform: translate(-50%, -50%);
+}
+.link-rond#rond5{
+    top: 47.4%;
+    left: 88.2%;
+	transform: translate(-50%, -50%);
+}*/
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	.icon-rond{
+		width: 100px;
+		height: 100px;
+	}
+
+}
+
+.link-rond#rond1:hover {
+	content: url('../img/soinshomeG.png');
+}
+
+.link-rond#rond2:hover {
+	content: url('../img/soinsaideF.png');
+}
+
+.link-rond#rond3:hover {
+	content: url('../img/soinshomeF.png');
+}
+
+.link-rond#rond4:hover {
+	content: url('../img/soinsremplacementF.png');
+}
+
+.link-rond#rond5:hover {
+	content: url('../img/soinspedicureF.png');
+}
+
+
+@media (max-width: 991px) and (min-width: 768px){
+.visible-sm-block {
+	display:inline;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.icon-rond{
+		width: 85px;
+		height: 85px;
+	}
+
+/*	.link-rond#rond5{
+	top: 34.2%;
+    left: 21.3%;
+	transform: translate(-50%, -50%);
+}*/
+}
+
+/* Grow 
+.hvr-grow {
+
+	display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+	background-image: url('../img/soinsiconB.png');
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  z-index: 99;
+}
+*/
+
+/*ici*/
+
+
+/*--------------fin background fleurs--------------*/
+
+/*menu soins xs*/
+
+.iconcarre{
+	width:100%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-left: 0px;
+	padding-right: 0px;
+}
+
+.rectangle5{
+	margin-bottom: 2%;
+}
+
+.hvr-sweep-to-right {
+	width:100%;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-sweep-to-right:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2098D1;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+  color: white;
+}
+.hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+/*menu soins xs*/
+
+/*--------------Footer--------------*/
+
+
+
+.textedubinfo{
+	font-size: 14px;
+}
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+    margin-bottom: -142px; 
+}
+
+footer{
+	bottom:0;
+	height: 250px;
+	background-color: backblue;
+}
+
+.droits{
+	position: absolute;
+    top: 200px;
+}
+
+.iconReseaux{
+	height:40px;
+}
+
+.contenuFGauche{
+	padding-top: 120px;
+}
+
+@media(max-width:767px){ 
+
+.contenuFGauche {
+    padding-top: 0px;
+    display: block;
+}
+
+.iconcarre{
+	text-align: center;
+}
+
+.textedubinfo {
+		display: none;}
+
+#back-to-top {
+	display: none;
+}
+
+.textereseaux {
+	display: none;
+}
+
+h2,p,a{
+	font-size: 0.8em;
+}
+
+.reseaux a img{
+	display: block;
+}
+
+.reseaux div{
+	position: absolute;
+    top: -140px;
+    right: 0px;
+}
+
+
+
+}
+/*--------------fin---footer--------------*/
+/*------------------------------page qui sommes nous---------------------------------*/
+
+.bgquisommes{
+	/*width:100%;*/
+	opacity: 0.3;
+    position: absolute;
+}
+
+.bgfullscreen{
+	background: url("../img/backgroundQui.png");
+    background-size: 100% 110%;
+    background-repeat: no-repeat;
+}
+
+.titrequi{
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+
+.contenuquiA{
+	text-align: justify;
+	/*letter-spacing: 3px;*/
+}
+
+.quisommesimg1{
+	position: relative;
+	max-width: 100%;
+	margin-top: 8em;
+}
+
+.contenuB{
+	padding-top:4em;
+}
+
+.contenuquiB{
+
+	text-align: justify;
+	/*letter-spacing: 3px;*/
+	padding-top: 2em;
+	padding-bottom: 0;
+}
+
+.tickqui{
+    height: 18px;
+    padding-bottom: 5px;
+}
+
+.contenuquiC{
+	text-align: justify;
+	/*letter-spacing: 3px;*/
+	padding-top: 1em;
+	padding-bottom: 1em;
+	list-style-type: none;
+}
+
+.quisommesimg2{
+	display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+@media(max-width:767px){ 
+
+.bgquisommes{
+	display:none;
+}
+
+.bgfullscreen{
+	background:none;
+}
+
+.titrequi{
+	font-size: 2em;
+}
+
+.contenuquiA{
+	text-align: justify;
+	letter-spacing: 0;
+}
+
+.quisommesimg1{
+	position: relative;
+	max-width: 100%;
+	margin-top: 1em;
+}
+
+.contenuB{
+	padding-top:2em;
+}
+
+.contenuquiB{
+	text-align: justify;
+	letter-spacing: 0;
+	padding-top: 2em;
+	padding-bottom: 0;
+}
+
+.tickqui{
+	width:12px;
+	padding-bottom: 3px;
+}
+
+.contenuquiC{
+	text-align: justify;
+	letter-spacing: 0;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	list-style-type: none;
+}
+
+.quisommesimg2{
+	display: block;
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 3em;
+}
+}
+
+
+
+/*------------------------------fin page qui sommes nous-----------------------------*/
+
+
+/*------------------------------page valeurs-----------------------------*/
+
+/*------------------------------fin page qui sommes nous-----------------------------*/
+.nosvaleursbg{
+	width:100%;
+}
+/*------------------------------fin page valeurs-----------------------------*/
+
+/*------------------------------fin page pedicure-----------------------------*/
+.pedicureimg{
+	position: relative;
+	max-width: 100%;
+	margin-top: 8em;
+}
+
+.pedicureimgb{
+	position: relative;
+	max-width: 100%;
+	
+}
+
+.piedscontenub{
+	margin-top:5%;
+}
+
+
+@media(max-width:767px){
+
+	.titrequi{
+		padding-top: 1em;
+		padding-bottom: 0;
+	}
+
+	.pedicureimgb{
+	position: relative;
+	max-width: 100%;
+	display: none;
+}
+	.pedicureimg{
+	position: relative;
+	max-width: 100%;
+	margin-top: 1em;
+
+	
+}
+}
+/*------------------------------fin page pedicure-----------------------------*/
+
+/*------------------------------page aide domicile-----------------------------*/
+
+.listeaideinterieur{
+	list-style-type:none; 
+}
+
+.lisBulAide{
+	height:18px;
+    padding-bottom:5px;
+}
+
+.listeaide{
+	padding-left: 0;
+}
+
+.infoaide{
+	font-size: 0.4em;
+	color: #16325B;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.groupaccordion{
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+.accordion{
+	border-color: 1px solid blue;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #90BFDE;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+
+/* The "show" class is added to the accordion panel when the user clicks on one of the buttons. This will show the panel content */
+div.panel.show {
+    display: block;
+}
+
+button.accordion {
+    background-color: white;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: 1px solid #16325B;
+    outline: none;
+    transition: 0.4s;
+    }
+
+div.panel.show p:first-child{
+    padding-top: 1em;
+}
+
+/*--------------------------fin page aide domicile-----------------------------*/
+
+.carousel{
+	margin-top: -20px;
+}
